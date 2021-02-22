@@ -3,70 +3,17 @@ body{
 }
 
   label{
-    color: rgb(228, 11, 3);
+    color: rgb(25, 49, 33);
   }
-  button{
-    background-color: rgb(13, 146, 102);
-    color: floralwhite;
-  }
+ 
   input{
     color: rgb(20, 14, 5);
     background-color: rgba(202, 252, 196, 0.788);
   }
-  ::placeholder{
-    color: rgb(48, 10, 10);
-  }
-  p{
-    color: blue;
-   
-  }
-  textarea{
-    border-color: rgb(30, 62, 73);
-    color: rgb(221, 195, 195); 
-    border-width: 2px;
-    box-shadow: 10px  ;
-   
-  }
+ 
+ 
 
 
-input[type='checkbox']:after {
-    width: 10px;
-    height: 10px;
-   
-    top: -2px;
-    left: -1px;
-    position: relative;
-  
-    content: '';
-    display: inline-block;
-    visibility: visible;
-   
-}
-
-input[type='checkbox']:checked:after {
-    width: 10px;
-    height: 10px;
-   
-    top: -2px;
-    left: -1px;
-    position: absolute;
-    background-color: #221f19;
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 2px solid white;
-}
-select{
-    background-color: rgb(148, 186, 236);
-}
-.submit{
-  height: 30px;
-  width: auto;
-  font-weight: 700;
-  font-size: medium;
-  background-color: rgb(43, 43, 224);
-  color: white;
-}
 .bg-light{
   background-color:rgb(187, 235, 219);
 }
